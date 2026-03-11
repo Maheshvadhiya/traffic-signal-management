@@ -118,7 +118,7 @@ const TrafficSignalScreen: React.FC = () => {
             key={dir}
             direction={dir}
             signal={states[dir].signal}
-            countdown={states[dir].countdown}
+            countdown={isRunning ? states[dir].countdown : '--'}
             isActive={states[dir].signal === 'green'}
           />
         ))}

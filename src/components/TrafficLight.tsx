@@ -4,7 +4,7 @@ import { SignalColor } from "../types/traffic";
 interface TrafficLightProps {
   direction: string;
   signal: SignalColor;
-  countdown: number;
+  countdown: number | string;
   isActive: boolean;
 }
 
