@@ -1,0 +1,34 @@
+## Installation & Setup
+
+1. Clone the repository
+
+git clone https://github.com/Maheshvadhiya/traffic-signal-management.git
+
+2. Navigate into the project folder
+
+cd traffic-signal-management
+
+##  Start Development Server
+
+```bash
+npx expo start 
+```
+
+### Step 5 — Open the App
+
+| Method | Command / Action |
+|--------|-----------------|
+| Android Emulator | Press `a` in terminal |
+| iOS Simulator (macOS only) | Press `i` in terminal |
+| Physical Android device | Scan QR code with **Expo Go** app |
+| Physical iPhone | Scan QR code with **Expo Go** app |
+| Web browser | Press `w` in terminal |
+
+---
+
+# 👨‍💻 Developer
+
+**Mahesh Vadhiya**
+
+Project: `traffic-signal-management`
+Task: React Native Technical Assessment
